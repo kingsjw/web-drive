@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteRule ^([^.]*)/?$ index.php?param=$1 [L,QSA]
+php_value post_max_size 102400M
+php_value upload_max_filesize 102400M
